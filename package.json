@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "bundle": "webpack",
-    "serve": "webpack-dev-server",
-    "server": "node server.js"
+    "serve": "webpack-dev-server"
   },
   "license": "MIT",
   "devDependencies": {
@@ -22,9 +20,17 @@
     "webpack-cli": "^3.3.4"
   },
   "dependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/plugin-transform-runtime": "^7.5.0",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/runtime": "^7.5.4",
+    "babel-loader": "^8.0.6",
     "clean-webpack-plugin": "^3.0.0",
+    "core-js": "3",
     "express": "^4.17.1",
     "html-webpack-plugin": "^3.2.0",
+    "regenerator-runtime": "^0.13.2",
     "webpack-dev-middleware": "^3.7.0",
     "webpack-dev-server": "^3.7.2"
   }

@@ -1,0 +1,6 @@
+#root{
+    background: transparent
+}
+div:nth-of-type(even){
+    background: #ff0;
+}
