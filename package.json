@@ -5,7 +5,7 @@
   "scripts": {
     "bundle": "webpack",
     "serve": "webpack-dev-server",
-    "middleware":"node server.js"
+    "server": "node server.js"
   },
   "license": "MIT",
   "devDependencies": {
@@ -23,7 +23,9 @@
   },
   "dependencies": {
     "clean-webpack-plugin": "^3.0.0",
+    "express": "^4.17.1",
     "html-webpack-plugin": "^3.2.0",
+    "webpack-dev-middleware": "^3.7.0",
     "webpack-dev-server": "^3.7.2"
   }
 }
