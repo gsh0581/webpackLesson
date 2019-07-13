@@ -1,5 +1,7 @@
-function Header(){
-	document.write("Header")
+export  const header =(a,b)=>{
+	return a+b
 }
 
-export default Header;
+export  const add =(a,b)=>{
+	return a+b
+}
